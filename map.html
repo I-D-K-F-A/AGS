@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_79c6c308e3ad4c7fb692b5f766a11981 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_79c6c308e3ad4c7fb692b5f766a11981" ></div>
+        
+</body>
+<script>    
+    
+            var map_79c6c308e3ad4c7fb692b5f766a11981 = L.map(
+                "map_79c6c308e3ad4c7fb692b5f766a11981",
+                {
+                    center: [46.35, 48.05],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bdbf0c44aad0477482e24a216b99dcec = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_79c6c308e3ad4c7fb692b5f766a11981);
+        
+    
+            var circle_marker_193291c18ea64450ab61b7df707f1d1f = L.circleMarker(
+                [46.345354, 47.969263],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3db7e4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_79c6c308e3ad4c7fb692b5f766a11981);
+        
+    
+        var popup_ff0ea42e40984161a34270126a662b2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e90c93d1e71b4d9bbd85782047788175 = $(`<div id="html_e90c93d1e71b4d9bbd85782047788175" style="width: 100.0%; height: 100.0%;">Запах гари 3 2020-02-13  17:45:29+00 Напрваление ветра: 250 град.</div>`)[0];
+            popup_ff0ea42e40984161a34270126a662b2b.setContent(html_e90c93d1e71b4d9bbd85782047788175);
+        
+
+        circle_marker_193291c18ea64450ab61b7df707f1d1f.bindPopup(popup_ff0ea42e40984161a34270126a662b2b)
+        ;
+
+        
+    
+    
+            var circle_marker_ea77ca280fb641b6ad5b087556eab4a1 = L.circleMarker(
+                [46.335238000000004, 48.115489000000004],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3db7e4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_79c6c308e3ad4c7fb692b5f766a11981);
+        
+    
+        var popup_1de748a4d03b47e1804fb7bfaab113d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a40948933374d2fa621582b762d92b1 = $(`<div id="html_9a40948933374d2fa621582b762d92b1" style="width: 100.0%; height: 100.0%;">Химический 2020-02-14  07:39:20+00 Напрваление ветра: 272 град.</div>`)[0];
+            popup_1de748a4d03b47e1804fb7bfaab113d2.setContent(html_9a40948933374d2fa621582b762d92b1);
+        
+
+        circle_marker_ea77ca280fb641b6ad5b087556eab4a1.bindPopup(popup_1de748a4d03b47e1804fb7bfaab113d2)
+        ;
+
+        
+    
+    
+            var heat_map_447e3c97c887418d918a26e70e3c4066 = L.heatLayer(
+                [[46.345354, 47.969263], [46.335238000000004, 48.115489000000004]],
+                {"blur": 15, "max": 1.0, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
+            ).addTo(map_79c6c308e3ad4c7fb692b5f766a11981);
+        
+</script>
